@@ -1,0 +1,23 @@
+ import java.util.Scanner;
+ public class Zones{
+ public static void main(String [] args){
+ 
+   Switch (input){
+   Case 1. North West -> Kebbi, Sokoto, Katsina, Kano, Kaduna, Zamfara
+   
+   Case 2. North East -> Borno, Adamawa, Yobe, Taraba, Gombe, Jigawa, Bauchi
+
+   Case 3. North Central -> Kogi, Kwara, Plateau, Niger, Benue, FCT, Nassarawa
+  
+   Case 4.  South West -> Ogun, Osun, Ondo, Lagos, Ekiti, Oyo
+  
+   Case 5.  South East -> Anambra, Abia, Enugu, Ebonyi, Imo
+
+   Case 6.  South South -> Rivers, Akwa Ibom, Bayelsa, Delta, Cross-River, Edo
+   		  	 	
+	 	 	 	 	break;
+
+ default
+
+
+ 
