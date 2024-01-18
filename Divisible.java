@@ -7,8 +7,7 @@ int number = input.nextInt();
 if(number % 3 == 0){
 System.out.println("it is divisible by 3");
 }
- else {
+    else 
 System.out.println("not divisible by 3");
   }
  }
-}
