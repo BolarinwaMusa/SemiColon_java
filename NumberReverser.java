@@ -14,6 +14,8 @@ int remainder = 0;
   temporary /= 10;
 }
    System.out.println("Reverse of " + number + "is " + reverse);
+  while(number <10000 || number > 9999) {
+    number 
      
  }
 }

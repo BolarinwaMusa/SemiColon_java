@@ -5,7 +5,7 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter a number and get the Multiplication table ");
  int number = input.nextInt();
  
-  for(int index = 0; index<=12; index++) {
+  for(int index = 1; index<=12; index++) {
 System.out.println(number +"X" + index + "="+ number * index);
     }
   }

@@ -7,4 +7,4 @@ int DateOfBirth = input.nextInt();
 int calculateDate = 2024 - DateOfBirth;
 System.out.println("You are " + calculateDate + "years old");
     }
-}
+}=
