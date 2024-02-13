@@ -1,31 +1,39 @@
-public class Clock {
-private int hours;
-private int minutes;
-private int seconds;
-public Clock(int hour,int minute, int seconds) {
-this.hours = hours;
-this.minutes = minutes;
-this.seconds = seconds;
+public class Clock{
+private int hour;
+private int minute;
+private int second;
+public Clock(int hour,int minute,int second) {
+  this.hour = hour;
+  this.minute = minute;
+  this.second = second;
 }
- public int getHours() {
-	return hours;
+ public void setHour(int hour) {
+   
+    if(hour > 23){
+	this.hour = hour;
 }
- public void setHours(int hours) {
-	this.hours = hours;
 }
- public int getMinutes() {
-	return minutes;
+ public int getHour() {
+	return hour;
 }
- public void setMinutes(int minutes) {
-	this.minutes = minutes;
+ public void setMinute(int minute) {
+	if(minute > 59){
+     this.minute = minute;
 }
- public int getSeconds () {
-	return seconds;
 }
- public void setSeconds(int seconds) {
-	this.seconds = seconds;
- 
-
-
+ public int getMinute() {
+	return minute;
+}
+  public void setSecond(int second) {
+	if(second > 59) {
+      this.second = second;
   }
+  }
+}
+ public void displayTime(int displayTime) {
+	if(hour > 23 && minute >59 && second > 59){
+       this.hour = hour;
+	this.minute = minute;
+	this.second = second;
+}
 }
